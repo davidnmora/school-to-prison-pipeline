@@ -1,0 +1,17 @@
+
+2015-16 Civil Rights Data Collection 
+
+Data Usage Agreement
+
+
+
+The Civil Rights Data Collection (CRDC) is a survey of all public schools and school districts in the United States. The CRDC measures student access to courses, programs, staff, and resources that impact education equity and opportunity for students. The CRDC is a longstanding and critical aspect of the overall enforcement and monitoring strategy used by the Office for Civil Rights (OCR). In addition, the CRDC is a valuable resource for other federal agencies, policymakers and researchers, educators and school officials, parents and students, and other members of the public who seek data on student equity and opportunity.
+
+
+The data are collected in an aggregated format at the school level and district level. The CRDC does not collect personally identifiable information (e.g., student’s name, social security number, date of birth). To help prevent the CRDC from being used to identify any individuals, OCR requires that all users of the CRDC data agree that they will:
+
+* Make no use of the identity of any person discovered inadvertently, and advise OCR via email at ocrdata@ed.gov of any such discovery.
+* Not link this dataset with individually identifiable data from other datasets.
+
+By downloading or using the CRDC dataset, you signify your agreement to comply with the above stated requirements.
+

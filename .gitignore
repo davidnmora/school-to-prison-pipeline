@@ -1,0 +1,5 @@
+
+*.ipynb_checkpoints/*
+
+data (download CSVs here)/CRDC 2015-16 School Data.csv
+data (download CSVs here)/crdc-data-with-lat-long.csv
