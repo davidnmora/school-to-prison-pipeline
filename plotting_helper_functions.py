@@ -30,14 +30,14 @@ def plot_measure_accross_all_demographics(df, calculation, measure, bounds=[0,1]
 # Flag parameter 'comarison_race' lets you compare how many times the first races is likely to be
 # affected as the second race.
 def calculate_likelyhood_comparisons(df, measure, comparison_race=None, races=RACES, sexes=SEXES, lower_bound=POP_LOWER_BOUND):
-    df = remove_schools_with_pop_less_than(lower_bound)
+    df = remove_schools_with_pop_less_than(lower_bound, df)
     for sex in sexes:
         for race in races:
             df = calculate_likelyhood_comparison(df, measure, race, sex, comparison_race, sex)
     return df
 
 
-def remove_schools_with_pop_less_than(lower_bound):
+def remove_schools_with_pop_less_than(lower_bound, df):
     filter_col_df = df[DEMOGRAPHIC_COUNT_COLS]
     filtered_df = filter_col_df[filter_col_df >= lower_bound].dropna()
     return df.merge(filtered_df)
